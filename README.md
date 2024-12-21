@@ -1,4 +1,4 @@
-# YaMDb | REST API Service 
+#  | REST API Service 
 
 ### Описание:
 Проект собирает отзывы пользователей на фильмы, музыку, книги (произведения)
@@ -19,7 +19,7 @@
 
 Клонируйте репозиторий:
 ```
-git clone git@github.com:Port-tf/api_yamdb.git
+git clone git@github.com:doverlof/proga.git
 ```
 
 Измените свою текущую рабочую дерикторию:
@@ -67,7 +67,7 @@ python manage.py runserver
 3. Сделайте POST запрос указав "email" и "confirmation_code" в теле запроса на эндпоинт  "api/v1/auth/token/"/,в ответе вы получите JWT-токен
 
 
-### API YaMDb ресурсы:
+### API ресурсы:
 - AUTH: Аутентификация.
 - USERS: Регистрация пользователей/редактирование информации
 - TITLES: Произведения и информация о них
@@ -87,11 +87,4 @@ python manage.py runserver
 |api/v1/titles/{title_id}/reviews/           |POST            |```{"text": "string","score": 1}```                    |Информация об отзывах     |Разместить отзыв|
 
 
-
-### Авторы:
-- Игорь Шкода - @Port-tf (Тим-лид, разработчик) 
-
-- Вадим Волковский - @VadimVolkovsky (разработчик)
-
-- Владислав Хижняк - @cortin34 (разработчик)
 
